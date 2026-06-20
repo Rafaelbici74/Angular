@@ -1,8 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { Calculadora } from './calculadora/calculadora';
+import { ListaComprasComponent } from './lista-compras/lista-compras';
+
 @Component({
   selector: 'app-root',
-  imports: [Calculadora],
+  imports: [ListaComprasComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
